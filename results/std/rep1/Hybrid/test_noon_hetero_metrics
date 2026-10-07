@@ -1,0 +1,5 @@
+tasks: 9463
+accumulated task latency: 328026.685169873 s
+accumulated task runtime: 243603.632937475 s
+makespan: 478.907393687 s
+peak queue backlog: 3407 tasks waiting for a CPU

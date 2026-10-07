@@ -1,0 +1,6 @@
+occupancy: 20505 intervals, max 9 seg/task -> /opt/scx_rl/results/scx_rl_exec/preempt_pareto/s3100p3900n500/test_day10_occupancy
+tasks: 18155
+accumulated task latency: 1732409.279553569 s
+accumulated task runtime: 333244.471798101 s
+makespan: 596.449608437 s
+peak queue backlog: 8063 tasks waiting for a CPU

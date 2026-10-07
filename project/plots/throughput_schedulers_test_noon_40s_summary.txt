@@ -1,0 +1,10 @@
+Scheduler       Time to Complete 90% of Tasks (s)  Time to Complete 95% of Tasks (s)  Time to Complete 99% of Tasks (s)
+CFS             246.2                              267.8                              359.2                            
+EEVDF           244.6                              266.8                              361.5                            
+FIFO            327.0                              344.5                              358.5                            
+Hybrid          258.1                              294.4                              422.1                            
+ALPS            241.2                              263.4                              352.1                            
+SFS             317.5                              334.5                              351.9                            
+Synth. Latency  271.7                              311.4                              413.2                            
+Synth. Inter.   239.1                              264.7                              361.9                            
+Synth. Runtime  336.5                              356.3                              377.0                            

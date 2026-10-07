@@ -1,0 +1,6 @@
+occupancy: 26536 intervals, max 18 seg/task -> /opt/scx_rl/results/scx_rl_res/test_day10_hetero_occupancy
+tasks: 18155
+accumulated task latency: 38861.863831792 s
+accumulated task runtime: 888595.439126641 s
+makespan: 607.873970225 s
+peak queue backlog: 294 tasks waiting for a CPU

@@ -1,0 +1,37 @@
+libbpf/
+*.gitignore
+PKGBUILD
+target
+build/
+*.swp
+.cache/
+.cargo/
+.codex/
+.githooks/
+.vscode/
+tags
+*.o
+*.skel.h
+selftest
+selftest_noasan
+CLAUDE.md
+**/.claude
+**/*.ll
+**/*.s
+**/*.tmp
+.agent/
+.agents/
+__pycache__/
+*.pyc
+project/function_trace/*.log
+# RustLandBuilder generated files (written to source dir at cargo build time)
+scheds/**/intf.h
+scheds/**/main.bpf.c
+scheds/**/src/bpf.rs
+
+# macOS
+**/.DS_Store
+
+# Built on first use by project/function_trace/run_workload.sh
+project/function_trace/launch_function
+project/function_trace/replay_trace

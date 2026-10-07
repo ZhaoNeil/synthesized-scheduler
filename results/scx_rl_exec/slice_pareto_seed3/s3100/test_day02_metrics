@@ -1,0 +1,6 @@
+occupancy: 10336 intervals, max 11 seg/task -> /opt/scx_rl/results/scx_rl_exec/slice_pareto_seed3/s3100/test_day02_occupancy
+tasks: 8627
+accumulated task latency: 367695.019071604 s
+accumulated task runtime: 116083.328885232 s
+makespan: 341.010885837 s
+peak queue backlog: 3464 tasks waiting for a CPU

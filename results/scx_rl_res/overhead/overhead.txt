@@ -1,0 +1,12 @@
+RL inference (cpu) + Rust<->Python communication (comm) overhead — scx_rl_res
+workload tasks: 18155   episodes: 1
+cpu  = thread_time (pure inference compute)
+comm = round_trip - python_wall = pyo3/GIL boundary (Rust<->Python)
+==========================================================================
+  Kind          Calls   CPU/call (ms)   Comm/call (ms)
+  --------------------------------------------------------------
+  action          560           6.060            0.021
+  slice           532           0.646            0.011
+  --------------------------------------------------------------
+  per-episode total (s):  cpu 3.738   comm 0.017
+  per task (us):          cpu 205.88   comm 0.96

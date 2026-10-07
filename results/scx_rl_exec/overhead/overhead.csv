@@ -1,0 +1,3 @@
+sched,kind,tasks,calls,cpu_per_call_us,comm_per_call_us,cpu_episode_s,comm_episode_s,cpu_per_task_us,comm_per_task_us
+scx_rl_exec,action,18155,465,5007.368,20.557,2.328426,0.009559,128.253,0.527
+scx_rl_exec,slice,18155,212,534.665,12.274,0.113349,0.002602,6.243,0.143

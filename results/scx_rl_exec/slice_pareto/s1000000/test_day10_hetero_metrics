@@ -1,0 +1,6 @@
+occupancy: 18156 intervals, max 2 seg/task -> /opt/scx_rl/results/scx_rl_exec/slice_pareto/s1000000/test_day10_hetero_occupancy
+tasks: 18155
+accumulated task latency: 2491361.923275128 s
+accumulated task runtime: 232895.980591648 s
+makespan: 537.693851514 s
+peak queue backlog: 9665 tasks waiting for a CPU

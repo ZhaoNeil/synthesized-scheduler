@@ -1,0 +1,6 @@
+peak per-core backlog: 166 tasks (on core 21)
+tasks: 8627
+accumulated task latency: 577036.693868724 s
+accumulated task runtime: 12852.718729380 s
+makespan: 294.088906592 s
+peak queue backlog: 4447 tasks waiting for a CPU

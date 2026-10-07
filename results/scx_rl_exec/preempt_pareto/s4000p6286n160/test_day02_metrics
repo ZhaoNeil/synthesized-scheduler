@@ -1,0 +1,6 @@
+occupancy: 9249 intervals, max 7 seg/task -> /opt/scx_rl/results/scx_rl_exec/preempt_pareto/s4000p6286n160/test_day02_occupancy
+tasks: 8627
+accumulated task latency: 507007.048761650 s
+accumulated task runtime: 56472.361861257 s
+makespan: 348.577673118 s
+peak queue backlog: 4203 tasks waiting for a CPU

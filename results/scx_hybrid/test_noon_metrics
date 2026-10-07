@@ -1,0 +1,6 @@
+occupancy: 12311 intervals, max 10 seg/task -> /opt/scx_rl/results/scx_hybrid/test_noon_occupancy
+tasks: 9463
+accumulated task latency: 442682.969543092 s
+accumulated task runtime: 246711.593522448 s
+makespan: 439.419109940 s
+peak queue backlog: 4128 tasks waiting for a CPU

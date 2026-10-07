@@ -1,0 +1,6 @@
+occupancy: 10730 intervals, max 10 seg/task -> /opt/scx_rl/results/scx_rl_exec/preempt_pareto/s847p950n4000/test_day02_hetero_occupancy
+tasks: 8627
+accumulated task latency: 125679.786838150 s
+accumulated task runtime: 164479.054114743 s
+makespan: 341.359621923 s
+peak queue backlog: 1560 tasks waiting for a CPU

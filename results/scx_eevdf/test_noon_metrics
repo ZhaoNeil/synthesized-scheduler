@@ -1,0 +1,6 @@
+occupancy: 10491 intervals, max 8 seg/task -> /opt/scx_rl/results/scx_eevdf/test_noon_occupancy
+tasks: 9463
+accumulated task latency: 305.409313241 s
+accumulated task runtime: 441016.195300743 s
+makespan: 377.042493243 s
+peak queue backlog: 22 tasks waiting for a CPU

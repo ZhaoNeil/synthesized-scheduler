@@ -1,0 +1,6 @@
+occupancy: 9546 intervals, max 10 seg/task -> /opt/scx_rl/results/scx_cfs/test_day02_occupancy
+tasks: 8627
+accumulated task latency: 217.789376838 s
+accumulated task runtime: 292575.496942010 s
+makespan: 316.100985468 s
+peak queue backlog: 22 tasks waiting for a CPU

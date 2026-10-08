@@ -58,13 +58,12 @@ The RL agents embed CPython via `pyo3`; the learning code is in each crate's
 
 ## Requirements
 
-- A Linux kernel with `sched_ext` and a **raised watchdog limit**, plus root
-  access to load schedulers. Under the oversubscribed workloads a task can stay
-  runnable far longer than the stock `sched_ext` watchdog allows, so the harness
-  loads every scheduler with a 600 s timeout (`SCX_TIMEOUT_MS=600000` in
-  `run_workload.sh`). A stock kernel caps this at `SCX_WATCHDOG_MAX_TIMEOUT`
-  (30 s) and rejects the scheduler at load time, so `SCX_WATCHDOG_MAX_TIMEOUT`
-  in `kernel/sched/ext.c` must be raised and the kernel rebuilt.
+- Root access and a Linux kernel with `sched_ext`, rebuilt with a **raised
+  watchdog limit**: set `SCX_WATCHDOG_MAX_TIMEOUT` in `kernel/sched/ext.c` to
+  at least 600 s (default: 30 s). The harness loads every scheduler with a 600 s
+  timeout (`SCX_TIMEOUT_MS=600000` in `run_workload.sh`), because tasks in the
+  oversubscribed workloads can stay runnable for well over 30 s; an unmodified
+  kernel refuses to load the scheduler.
 
 ## Build
 

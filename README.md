@@ -28,7 +28,7 @@ below is unmodified upstream code. The original upstream README is kept as
 | [`scx_cfs`](scheds/experimental/scx_cfs) | CFS | Per-CPU CFS model (weighted vruntime, load balancing) |
 | [`scx_eevdf`](scheds/experimental/scx_eevdf) | EEVDF | Per-CPU EEVDF model (virtual deadlines, eligibility) |
 | [`scx_cfifo`](scheds/experimental/scx_cfifo) | FIFO | Centralized global-queue FIFO, run-to-completion |
-| [`scx_hybrid`](scheds/experimental/scx_hybrid) | Hybrid | FIFO tier for short tasks + CFS tier for long ones |
+| [`scx_hybrid`](scheds/experimental/scx_hybrid) | Hybrid | FIFO tier for short tasks + CFS tier for long ones; port of [Hybrid](https://github.com/ZhaoNeil/hybrid-scheduler) (Middleware '24) |
 | [`scx_alps`](scheds/experimental/scx_alps) | ALPS | Port of [ALPS](https://github.com/ds2-lab/ALPS) (USENIX ATC '24) |
 | [`scx_sfs`](scheds/experimental/scx_sfs) | SFS | Port of [SFS](https://github.com/ds2-lab/SFS) (SC '22) |
 | [`scx_rr`](scheds/experimental/scx_rr) | Round-Robin | Round-robin over per-core queues, with optional preemption, power-of-two choices, and work shuffling |

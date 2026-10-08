@@ -24,7 +24,7 @@ below is unmodified upstream code. The original upstream README is kept as
 | Scheduler | Role in the paper | Description |
 |---|---|---|
 | [`scx_rl_res`](scheds/experimental/scx_rl_res) | Synth. Latency | RL (Dueling-DQN) agent optimizing accumulated task latency: learns per-task core placement and the preemption time slice |
-| [`scx_rl_exec`](scheds/experimental/scx_rl_exec) | Synth. Runtime; with a fixed slice, Synth. Intermediate and the Pareto sweeps | Same agent, reward targets accumulated task runtime |
+| [`scx_rl_exec`](scheds/experimental/scx_rl_exec) | Synth. Runtime and the Pareto sweeps | Same agent, reward targets accumulated task runtime |
 | [`scx_cfs`](scheds/experimental/scx_cfs) | CFS | Per-CPU CFS model (weighted vruntime, load balancing) |
 | [`scx_eevdf`](scheds/experimental/scx_eevdf) | EEVDF | Per-CPU EEVDF model (virtual deadlines, eligibility) |
 | [`scx_cfifo`](scheds/experimental/scx_cfifo) | FIFO | Centralized global-queue FIFO, run-to-completion |
